@@ -1,8 +1,3 @@
-<!-- Crea una página index.html que contenga:
-• Cabecera con logo y menú de navegación
-• Al menos tres artículos sobre computación, con título, párrafo y figura
-• Enlaces relacionados, que servirán posteriormente como barra lateral
-• Pie de página con información de contacto -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -20,6 +15,8 @@
             <li><a href="#articulo1">Articulo 1</a></li>
             <li><a href="#articulo2">Articulo 2</a></li>
             <li><a href="#articulo3">Articulo 3</a></li>
+            <li><a href="#relacionadas">Noticias relacionadas</a></li>
+            <li><a href="#contacto">Contacto</a></li>
          </ul>   
     </nav>
     <article id="articulo1">
@@ -88,7 +85,7 @@
         </figure>
     </article>
     <aside>
-        <h2>Noticias relacionadas</h2>
+        <h2 id="relacionadas">Noticias relacionadas</h2>
         <ul>
             <li><a href="https://revistabyte.es/noticias/agentes-de-ia-companeros-de-trabajo">“No vienen a sustituir, vienen a complementar”: agentes de IA, los nuevos compañeros de trabajo</a></li>
             <li><a href="https://revistabyte.es/noticias/agentes-de-ia-companeros-de-trabajo">Europa refuerza su soberanía digital con la nueva infraestructura crítica de Cisco</a></li>
@@ -98,7 +95,7 @@
     </aside>
     <footer>
         <p>&copy; 2025 Laboratorio 5 de Introducción al Desarrollo Web</p>
-        <address>Contacto: bcuba@unsa.edu.pe</address>
+        <address id="contacto">Contacto: bcuba@unsa.edu.pe</address>
     </footer>
 </body>
 </html>
